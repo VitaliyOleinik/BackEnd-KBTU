@@ -104,14 +104,127 @@ object Hello extends App{
     }
 
     // do-while
+    var y = 0
     do {
-      typesEx1()
+      y += 1
+      print(y)
     }
-    while(m != 0){ // error ';' expected but '{' found. while(m != 0){
-      m -= 1
-      print(m)
-    }
+    while(y < 10)
   }
-  ex7(5)
+  //ex7(5)
+  def createClassEx8(): Unit ={
+    val p = new Person("Julia", "Kern", 20)
+    println(p.firstName)
+    p.lastName = "Manes"
+    p.printFullName()
+  }
+  //createClassEx8()
 
+  // with return type of method
+  def sum(a: Int, b: Int): Int = a + b
+  def concatenate(s1: String, s2: String): String = s1 + s2
+//  println(sum(56, 4))
+//  print(concatenate("ab", "ba"))
+
+// without return type of method
+  def sum1(a: Int, b: Int) = a + b
+  def concatenate1(s1: String, s2: String) = s1 + s2
+//  println(sum1(4, 56))
+//  print(concatenate1("ba", "ab"))
+
+  def traitsEx9(): Unit ={
+    var dog = new Dog("Mops")
+    var cat = new Cat("KOT")
+    println(cat.speak())
+    cat.startRunning()
+    cat.stopRunning()
+  }
+  //traitsEx9()
+  def collectionsClasses(): Unit ={
+    val nums = List.range(0, 10)
+    val nums1 = (1 to 10 by 2).toList
+    val letters = ('a' to 'z').toList
+    val letters1 = ('a' to 'f' by 2).toList
+    println(nums)
+    println(nums1)
+    println(letters)
+    println(letters1)
+
+    val nums2 = (1 to 10).toList
+    val names = List("joel", "ed", "chris", "maurice")
+    //println(nums2)
+    nums2.filter(_ < 4).foreach(println)
+
+    //println(names)
+    names.foreach(println)
+
+    val doubles = nums2.map(_ * 2)
+    println(doubles)
+
+    val capNames = names.map(_.capitalize) // all first character in Upper Case
+    println(capNames)
+
+    val lessThanFive = nums2.map(_ < 5) // check for digit is less than 5
+    println(lessThanFive)
+
+    println(nums2.foldLeft(0)(_ + _)) // return summarize of all digits in List
+    println(nums.foldLeft(1)(_ * _)) // return multiple of all digits in List
+  }
+  //collectionsClasses()
+
+  def tuples(): Unit ={
+    class Person(var name: String)
+    val t = (11, "Eleven", new Person("Vit"))
+    println(t._1)
+    println(t._2)
+    println(t._3.name)
+    val (num, string, person) = (11, "Eleven", new Person("Eleven"))
+  }
+  tuples()
+
+
+
+}
+
+class Person(var firstName: String, var lastName: String, var age: Int) {
+  def printFullName() = println(s"Firstname: $firstName. Lastname: $lastName." + s" Age: $age")
+}
+
+//class Pizza (
+//              var crustSize: CrustSize, // new object of CrustSize
+//              var crustType: CrustType, // new object of CrustType
+//              val toppings: ArrayBuffer[Topping] // ArrayBuffer like java(ArrayList)
+//            ) {
+//  def addTopping(t: Topping): Unit = toppings += t // add new topping
+//  def removeTopping(t: Topping): Unit = toppings -= t // remove topping
+//  def removeAllToppings(): Unit = toppings.clear() // clear ArrayBuffer with toppings
+//}
+
+trait Speaker {
+  def speak(): String  // has no body, so it’s abstract
+}
+
+trait TailWagger {
+  def startTail(): Unit = println("tail is wagging")
+  def stopTail(): Unit = println("tail is stopped")
+}
+
+trait Runner {
+  def startRunning(): Unit = println("I’m running")
+  def stopRunning(): Unit = println("Stopped running")
+}
+
+class Cat(name: String) extends Speaker with TailWagger with Runner {
+  def speak(): String = "Meow"
+  override def startRunning(): Unit = println("Yeah ... I don’t run")
+  override def stopRunning(): Unit = println("No need to stop")
+}
+
+class Dog(name: String) extends Speaker with TailWagger with Runner {
+  def speak(): String = "Woof!"
+  println(speak())
+  startTail()
+  startRunning()
+  stopRunning()
+  stopTail()
 }
