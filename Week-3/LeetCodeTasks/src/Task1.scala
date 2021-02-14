@@ -1,5 +1,5 @@
 
-  object Solution1 {
+  object Solution {
     def kidsWithCandies(candies: Array[Int], extraCandies: Int): Array[Boolean] = {
       val maxCandy = candies.max
       candies.map { candy => candy + extraCandies >= maxCandy }

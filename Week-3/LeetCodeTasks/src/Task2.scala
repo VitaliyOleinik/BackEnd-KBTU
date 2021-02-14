@@ -1,4 +1,4 @@
-object Solution2{
+object Solution{
   def getDecimalValue(head: ListNode): Int = {
     var x = 0
     var i = head
