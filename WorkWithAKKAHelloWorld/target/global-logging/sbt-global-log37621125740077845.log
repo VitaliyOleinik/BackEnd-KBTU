@@ -1,0 +1,35 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_221)
+[debug]       Load.loadUnit: plugins took 474.9209ms
+[debug]       Load.loadUnit: defsScala took 1.399ms
+[debug] [Loading] Scanning directory C:\Users\Mi Book\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Mi Book\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 58.1162 ms
+[debug]           Load.resolveProject(global-plugins) took 86.921ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Mi Book\.sbt\1.0\plugins, plugins: List(<none>))) took 220.377ms
+[debug] [Loading] Done in C:\Users\Mi Book\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 273.1676ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4664ms
+[debug]     Load.loadUnit(file:/C:/Users/Mi%20Book/.sbt/1.0/plugins/, ...) took 770.6179ms
+[debug]   Load.apply: load took 1042.4789ms
+[debug]   Load.apply: resolveProjects took 14.0941ms
+[debug]   Load.apply: finalTransforms took 98.7079ms
+[debug]   Load.apply: config.delegates took 14.6096ms
+[debug]   Load.apply: Def.make(settings)... took 839.7665ms
+[debug]   Load.apply: structureIndex took 278.9321ms
+[debug]   Load.apply: mkStreams took 2.9475ms
+[info] loading global plugins from C:\Users\Mi Book\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] sbt-1.4.7.jar no longer exists at C:\Work\BackEnd+Scala\Week-5_ClassWork\WorkWithAKKA\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.4.7\sbt-1.4.7.jar
