@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\src\main\resources\application.conf,C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\target\scala-2.13\classes\application.conf)
+[debug] 	(C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\src\main\resources\logback.xml,C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\target\scala-2.13\classes\logback.xml)

@@ -1,0 +1,32 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	GetSession$.class
+[debug] 	GetSession.class
+[debug] 	MessagePosted$.class
+[debug] 	MessagePosted.class
+[debug] 	SessionGranted$.class
+[debug] 	Gabbler$.class
+[debug] 	SessionEvent.class
+[debug] 	ChatRoom$PublishSessionMessage$.class
+[debug] 	NotifyClient.class
+[debug] 	Main.class
+[debug] 	RoomCommand.class
+[debug] 	Gabbler.class
+[debug] 	SessionDenied.class
+[debug] 	Main$.class
+[debug] 	NotifyClient$.class
+[debug] 	ChatRoom$SessionBehavior.class
+[debug] 	ChatRoom$SessionBehavior$.class
+[debug] 	SessionCommand.class
+[debug] 	Main$$anonfun$$nestedInanonfun$apply$5$1.class
+[debug] 	PostMessage.class
+[debug] 	ChatRoom$ChatRoomBehavior.class
+[debug] 	SessionDenied$.class
+[debug] 	ChatRoom$PublishSessionMessage.class
+[debug] 	SessionGranted.class
+[debug] 	ChatRoom.class
+[debug] 	PostMessage$.class
+[debug] 	ChatRoom$.class
+[debug] Removing the temporary directory used for backing up class files: C:\Work\BackEnd+Scala\Week-5\WorkWithAkkaOOPExample\target\scala-2.13\classes.bak
