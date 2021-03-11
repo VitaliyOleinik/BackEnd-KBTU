@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\MIBOOK~1\AppData\Local\Temp\idea7.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\MIBOOK~1\AppData\Local\Temp\idea7.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 1.8.0_221)
+[debug]       Load.loadUnit: plugins took 111.3749ms
+[debug]       Load.loadUnit: defsScala took 0.3524ms
+[debug] [Loading] Scanning directory C:\Users\Mi Book\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Mi Book\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 21.0578 ms
+[debug]           Load.resolveProject(global-plugins) took 48.2389ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Mi Book\.sbt\1.0\plugins, plugins: List(<none>))) took 96.1002ms
+[debug] [Loading] Done in C:\Users\Mi Book\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 118.0283ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2819ms
+[debug]     Load.loadUnit(file:/C:/Users/Mi%20Book/.sbt/1.0/plugins/, ...) took 238.1486ms
+[debug]   Load.apply: load took 424.5867ms
+[debug]   Load.apply: resolveProjects took 7.8692ms
+[debug]   Load.apply: finalTransforms took 73.6365ms
+[debug]   Load.apply: config.delegates took 11.9221ms
+[debug]   Load.apply: Def.make(settings)... took 473.6697ms
+[debug]   Load.apply: structureIndex took 121.2975ms
+[debug]   Load.apply: mkStreams took 2.4932ms
+[info] loading global plugins from C:\Users\Mi Book\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3492.4172ms
+[debug]           Load.loadUnit: plugins took 30.0276ms
+[debug]           Load.loadUnit: defsScala took 0.0044ms
+[debug] [Loading] Scanning directory C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\project
+[debug]             Load.loadUnit: mkEval took 8.2471ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.2927 ms
+[info] loading settings for project akkacalculator-build from idea7.sbt ...
+[debug]               Load.resolveProject(akkacalculator-build) took 14.0437ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id akkacalculator-build, base: C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\project, plugins: List(<none>))) took 19.3756ms
+[debug] [Loading] Done in C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\project, returning: (akkacalculator-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 248.876ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.6688ms
+[debug]         Load.loadUnit(file:/C:/Work/BackEnd+Scala/Week-5/AkkaCalculator/project/, ...) took 287.9286ms
+[debug]       Load.apply: load took 290.0439ms
+[debug]       Load.apply: resolveProjects took 0.1405ms
+[debug]       Load.apply: finalTransforms took 19.5953ms
+[debug]       Load.apply: config.delegates took 0.8435ms
+[debug]       Load.apply: Def.make(settings)... took 113.1354ms
+[debug]       Load.apply: structureIndex took 32.9166ms
+[debug]       Load.apply: mkStreams took 0.0029ms
+[info] loading project definition from C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 731.7257ms
+[debug]     Load.loadUnit: defsScala took 0.0031ms
+[debug] [Loading] Scanning directory C:\Work\BackEnd+Scala\Week-5\AkkaCalculator
+[debug]       Load.loadUnit: mkEval took 0.2596ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Work\BackEnd+Scala\Week-5\AkkaCalculator, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.9535 ms
+[info] loading settings for project akkacalculator from build.sbt ...
+[debug]         Load.resolveProject(akkacalculator) took 36.3562ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id akkacalculator, base: C:\Work\BackEnd+Scala\Week-5\AkkaCalculator, plugins: List(<none>))) took 39.5762ms
+[debug] [Loading] Done in C:\Work\BackEnd+Scala\Week-5\AkkaCalculator, returning: (akkacalculator)
+[debug]     Load.loadUnit: loadedProjectsRaw took 128.3717ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.8007ms
+[debug]   Load.loadUnit(file:/C:/Work/BackEnd+Scala/Week-5/AkkaCalculator/, ...) took 866.6041ms
+[debug] Load.apply: load took 868.4752ms
+[debug] Load.apply: resolveProjects took 0.1111ms
+[debug] Load.apply: finalTransforms took 25.7904ms
+[debug] Load.apply: config.delegates took 0.5122ms
+[debug] Load.apply: Def.make(settings)... took 90.6507ms
+[debug] Load.apply: structureIndex took 24.654ms
+[debug] Load.apply: mkStreams took 0.0025ms
+[info] set current project to AkkaCalculator (in build file:/C:/Work/BackEnd+Scala/Week-5/AkkaCalculator/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 56874 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 56874, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to AkkaCalculator (in build file:/C:/Work/BackEnd+Scala/Week-5/AkkaCalculator/)
+[debug] > Exec(idea-shell, None, None)

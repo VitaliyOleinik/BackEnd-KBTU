@@ -1,0 +1,31 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\target\scala-2.13\classes ...
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:76:33: not found: type Operation
+[error]   var operations: mutable.Stack[Operation] = mutable.Stack[Operation]()
+[error]                                 ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:76:60: not found: type Operation
+[error]   var operations: mutable.Stack[Operation] = mutable.Stack[Operation]()
+[error]                                                            ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:110:50: not found: type Operation
+[error]   def calculate(x: BigDecimal, y: BigDecimal, c: Operation): BigDecimal = {
+[error]                                                  ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:112:12: not found: value ADD
+[error]       case ADD => x + y
+[error]            ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:113:12: not found: value SUBTRACT
+[error]       case SUBTRACT => y - x
+[error]            ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:114:12: not found: value MULTIPLY
+[error]       case MULTIPLY => x * y
+[error]            ^
+[error] C:\Work\BackEnd+Scala\Week-5\AkkaCalculator\src\main\scala\Calculator.scala:115:12: not found: value DIVIDE
+[error]       case DIVIDE => y / x
+[error]            ^
+[error] 7 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Mar 11, 2021 11:00:22 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
