@@ -1,0 +1,39 @@
+[debug] Packaging C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\workwithactors_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	application.conf
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\application.conf
+[debug] 	HelloWorld$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld$.class
+[debug] 	HelloWorld$Greet$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld$Greet$.class
+[debug] 	HelloWorld$Greet.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld$Greet.class
+[debug] 	HelloWorld$Greeted$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld$Greeted$.class
+[debug] 	HelloWorld$Greeted.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld$Greeted.class
+[debug] 	HelloWorld.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorld.class
+[debug] 	HelloWorldBot$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldBot$.class
+[debug] 	HelloWorldBot.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldBot.class
+[debug] 	HelloWorldMain$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldMain$.class
+[debug] 	HelloWorldMain$SayHello$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldMain$SayHello$.class
+[debug] 	HelloWorldMain$SayHello.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldMain$SayHello.class
+[debug] 	HelloWorldMain.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\HelloWorldMain.class
+[debug] 	logback.xml
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\logback.xml
+[debug] 	MainApplication$.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\MainApplication$.class
+[debug] 	MainApplication$delayedInit$body.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\MainApplication$delayedInit$body.class
+[debug] 	MainApplication$Prefixer$1.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\MainApplication$Prefixer$1.class
+[debug] 	MainApplication.class
+[debug] 	  C:\Work\BackEnd+Scala\Week-5\WorkWithActors\target\scala-2.13\classes\MainApplication.class
+[debug] Done packaging.
