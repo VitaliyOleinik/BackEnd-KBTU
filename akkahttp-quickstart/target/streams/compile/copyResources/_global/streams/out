@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Work\BackEnd+Scala\akkahttp-quickstart\src\main\resources\application.conf,C:\Work\BackEnd+Scala\akkahttp-quickstart\target\scala-2.12\classes\application.conf)
+[debug] 	(C:\Work\BackEnd+Scala\akkahttp-quickstart\src\main\resources\logback.xml,C:\Work\BackEnd+Scala\akkahttp-quickstart\target\scala-2.12\classes\logback.xml)
