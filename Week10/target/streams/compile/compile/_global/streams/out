@@ -1,0 +1,7 @@
+[debug] Acquiring lock on file C:\Work\BackEnd+Scala\Week10\project\target\.sbt-compilation-infos\week10-compile\.sbt-idea-lock ...
+[warn] C:\Work\BackEnd+Scala\Week10\src\main\scala\InMemoryTodoRepository.scala:27:15: match may not be exhaustive.
+[warn] It would fail on the following input: None
+[warn]     todos.find(_.id == updateTodo.id) match {
+[warn]               ^
+[warn] one warning found
+[debug] Releasing lock on file C:\Work\BackEnd+Scala\Week10\project\target\.sbt-compilation-infos\week10-compile\.sbt-idea-lock.
