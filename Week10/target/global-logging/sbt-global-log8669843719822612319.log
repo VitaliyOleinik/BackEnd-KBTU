@@ -1,0 +1,13 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 10 Scala sources to C:\Work\BackEnd+Scala\Week10\target\scala-2.12\classes ...
+[error] C:\Work\BackEnd+Scala\Week10\src\main\scala\InMemoryTodoRepository.scala:4:7: class InMemoryTodoRepository needs to be abstract, since method update in trait TodoRepository of type (updateTodo: UpdateTodo)scala.concurrent.Future[Todo] is not defined
+[error] class InMemoryTodoRepository(initialTodos:Seq[Todo] = Seq.empty)(implicit ec:ExecutionContext) extends TodoRepository {
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed Apr 29, 2021 12:57:07 AM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
