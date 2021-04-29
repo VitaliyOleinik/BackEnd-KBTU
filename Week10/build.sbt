@@ -1,6 +1,6 @@
 import com.typesafe.sbt.packager.docker.ExecCmd
 
-name := "week10"
+name := "week10vit"
 
 version := "0.1"
 
@@ -9,7 +9,7 @@ scalaVersion := "2.13.5"
 enablePlugins(JavaAppPackaging, AshScriptPlugin)
 
 dockerBaseImage := "openjdk:8-jre-alpine"
-packageName in Docker := "week10"
+packageName in Docker := "week10vit"
 
 scalaVersion := "2.12.6"
 
@@ -37,7 +37,10 @@ libraryDependencies ++= Seq(
 // heroku
 dockerCommands := dockerCommands.value.map {
   case ExecCmd("CMD", _ @ _*) =>
-    ExecCmd("CMD", "/opt/docker/bin/week10")
+    ExecCmd("CMD", "/opt/docker/bin/week10vit")
   case other =>
     other
 }
+//deploy.sh week10vit f185af6d8bfb eeb7f282-15b4-4097-add4-79292c48bbde
+
+// docker run -d -p 9000:9000 week10vit:0.1
