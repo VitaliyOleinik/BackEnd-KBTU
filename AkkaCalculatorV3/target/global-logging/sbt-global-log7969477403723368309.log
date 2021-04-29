@@ -1,0 +1,20 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 13 Scala sources to C:\Work\BackEnd+Scala\AkkaCalculatorV3\target\scala-2.12\classes ...
+[error] C:\Work\BackEnd+Scala\AkkaCalculatorV3\src\main\scala\Boot.scala:25:38: too many arguments (2) for constructor MyRouter: (todoRepository: TodoRepository)(implicit system: akka.actor.typed.ActorSystem[_], implicit ex: scala.concurrent.ExecutionContext)MyRouter
+[error]     val router = new MyRouter(todos, calculator)
+[error]                                      ^
+[error] C:\Work\BackEnd+Scala\AkkaCalculatorV3\src\main\scala\CalculatorRoutes.scala:2:8: not found: object validator
+[error] import validator.{ValidatorDirectives}
+[error]        ^
+[error] C:\Work\BackEnd+Scala\AkkaCalculatorV3\src\main\scala\MyRouter.scala:30:13: not found: value calculatorRepository
+[error]             calculatorRepository.calculate(equation)
+[error]             ^
+[error] three errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed Apr 29, 2021 11:22:37 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
